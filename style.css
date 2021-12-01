@@ -1,0 +1,389 @@
+ul{
+    /* display: flex; */
+    position:fixed;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* justify-content: center; */
+    background-color:rgb(38, 0, 141);
+    align-items: center;
+    margin: 0px;
+    padding: 0px;  
+    width: 110px;
+    height: 2000px;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+    margin-left: 10px;
+    background-color:rgb(0, 27, 117);
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 5px;
+    transition: 300ms;
+    
+}
+body{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family:  'Franklin Gothic Medium'
+}
+
+.act:hover{
+    background-image: url(https://acegif.com/wp-content/gifs/fire-51.gif);
+    color: red;
+    font-size: 18px;
+}
+
+
+li:hover{
+    background-color: royalblue;
+    width: 140px;
+
+}
+
+.vod{
+    margin-left: 50px;
+    height: 450px ;
+    width: 1200px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.eks{
+    margin-left: 50px;
+    margin-top: 50px;
+    height: 450px ;
+    width: 1200px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.pov{
+    margin-left: 50px;
+    margin-top: 50px;
+    height: 450px ;
+    width: 1200px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.okno{
+    display: block;
+    position: relative;
+    margin-left: 300px;
+    background-color: rgba(199, 199, 199, 0.7);
+    height: 1900px;
+    width: 1300px;
+    z-index: 11;
+}
+
+footer{
+    background-color: rgba(0, 158, 150, 0.9);
+    width: 100%;
+    height: 300px;
+}
+.soc{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 20px;
+    /* background-color: blanchedalmond; */
+    height: 200px;
+    width: 500px;
+}
+.zvon{
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 20px;
+    /* background-color: blanchedalmond; */
+    height: 200px;
+    width: 500px;
+
+}
+.icon{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 50px;
+    height: 20px;
+    width: 20px;
+}
+.vkic{
+    position: absolute;
+    margin-left: 48px;
+    margin-top: 55px;
+    height: 20px;
+    width: 23px;  
+}
+.inst{
+    position: absolute;
+    font-family: 'Franklin Gothic Medium';
+    margin-left: 75px;
+    margin-top: 50px;
+}
+.vk{
+    position: absolute;
+    margin-left: 75px;
+    margin-top: 55px;
+    height: 20px;
+    width: 23px;   
+}
+.tel{
+    position: absolute;
+    margin-left: 75px;
+    margin-top: 55px;
+    height: 50px;
+    width: 50px;
+    transition: 300ms;
+}
+.telinf{
+    margin-left: 150px;
+    margin-top: 55px; 
+    line-height: 0.8em;
+    font-family: 'Franklin Gothic Medium';
+    color: white;
+}
+.men{
+    margin-top: 500px;
+    margin-left: 500px;
+    background-color:rgb(68, 0, 255);
+}
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    overflow: auto;
+    transition: 300ms;
+        }
+    .modal_content{
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 500px;
+    height: 700px;
+    z-index: 1001;
+    border-radius: 10px;
+    transition: 300ms;
+
+        }
+    .close_modal_window{
+    color: black;
+    float: right;
+    font-size: 30px;
+    cursor: pointer;
+    }
+input{
+    width: 300px;
+    height: 30px;
+}
+p{
+    font-family: 'Franklin Gothic Medium';
+}
+.passed{
+    color: rgb(255, 255, 255);
+    margin-top: 250px;
+    font-size: 10px;
+    cursor: pointer;
+    background-color: blue;  
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+}
+textarea{
+    resize: none;
+}
+.gorup{
+    width: 250px;
+    height: 50px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+    margin-top: 100px;
+
+}
+option{
+    background-color: white;
+}
+.gortxt{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 80px;
+    font-size: 18px;
+    transition: 300ms;
+}
+.gortxt:hover{
+    color: rgb(253, 47, 47);
+}
+.show{
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 800px;
+    height: 500px;
+}
+.lev{
+    height: 500px;
+    width: 100px;
+    font-size: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+
+    
+    
+}
+.prav{
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 50px;
+    height: 500px;
+    width: 100px;
+    margin-left: 596px;
+    border-radius: 5px; 
+     
+}
+.mes{
+    position: absolute;
+    width: 600px;
+    height: 500px;  
+}
+.txt{
+    margin-left: 50px;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+.checked{
+    width: 20px;
+    height: 20px;
+    margin-left: 50px;
+
+}
+.cena{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-left: 1000px;
+    margin-top: 500px;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(81, 255, 0);
+    font-family: 'Franklin Gothic Medium';
+
+}
+hr{
+    border-color: black;
+}
+
+.cheker{
+    margin: 100px;
+    width: 900px;
+    height: 160px;
+    background-color: rgba(255, 0, 0, 0.7);
+    border-radius: 5px;
+}
+.checked1{
+    width: 20px;
+    height: 20px;
+    margin-left: 50px;
+
+}
+.txt1{
+    margin-left: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+.data{
+    margin-left: 200px;
+    height: 650px;
+    width: 700px;
+    background-color:rgba(238, 255, 0, 0.9);
+    border-radius: 5px;
+}
+h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+}
+.dtinp{
+    border-radius: 5px;
+    margin-left: 50px;
+}
+h3{
+    font-family: 'Franklin Gothic Medium';
+    margin-left: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.dtinp1{
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.oplt{
+    margin-left: 595px;
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    cursor: pointer;
+    background-color: blue;  
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;  
+}
+.gotovo{
+    height: 900px;
+    width: 1500px;
+    background-image: url(/maxresdefault\ \(1\).jpg);
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family:'Franklin Gothic Medium';
+    font-size: 50px;
+}
+.bilet{
+    width: 500px;
+    height: 300px;
+    background-color:rgba(255, 255, 255, 0.7);
+    margin-left: 450px;
+    margin-top: 50px;
+    border-radius: 10px; 
+}
+.ima5, .fam5, .otch5{
+    display: flex;
+    height: 50px;
+    width: 200px;
+    background-color:red;
+    justify-content: center;
+    align-items:center;
+    margin-top: 10px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.cert1{
+    margin-left: 250px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.cert2{
+    margin-left: 50px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.cert3{
+    margin-left: 50px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
